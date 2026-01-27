@@ -29,6 +29,6 @@ switchButton.addEventListener("click", function () {
 
 backButton.addEventListener("click", function () {
 
-    window.open("https://definitely-notalex.github.io/");
+    window.location = "https://definitely-notalex.github.io/";
 
 });
