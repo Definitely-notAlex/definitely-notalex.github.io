@@ -1,13 +1,14 @@
 /* Style the entire page */
 body {
-    background-color: #616161; /* Grey shaded background */
+    background-color: #7c7c7c; /* Grey shaded background */
     text-align: center;        /* Center all content */
     font-family: Arial, sans-serif;
 }
 
 /* Style the heading */
 h1 {
-    color: #003973; /* Regal Blue Text */
+    color: #ffffff; /* Regal Blue Text */
+    text-shadow: 3px 3px 3px #000000;
 }
 
 /* Style the displayed image */
