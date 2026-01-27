@@ -8,6 +8,7 @@ let showingFirstImage = true;
 // Get references to HTML elements
 const displayedImage = document.getElementById("displayedImage");
 const switchButton = document.getElementById("switchButton");
+const backButton = document.getElementById("backButton");
 
 // Set the initial image when the page loads
 displayedImage.src = image1;
@@ -24,4 +25,10 @@ switchButton.addEventListener("click", function () {
 
     // Flip the boolean so next click switches again
     showingFirstImage = !showingFirstImage;
+});
+
+backButton.addEventListener("click", function () {
+
+    window.open("https://definitely-notalex.github.io/");
+
 });
