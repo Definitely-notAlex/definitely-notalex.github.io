@@ -11,6 +11,7 @@ Lab1.addEventListener("click", function () {
 
 Lab2.addEventListener("click", function () {
 
-    //window.open("https://definitely-notalex.github.io/ARCHOSC-Lab1/");
+    window.open("https://definitely-notalex.github.io/ARCHOSC-Lab2/");
+
 
 });
